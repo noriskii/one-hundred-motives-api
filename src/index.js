@@ -20,4 +20,4 @@ server.use(cors())
 server.use(express.json())
 server.use(routes)
 
-server.listen(process.env.port || 3333)
+server.listen(process.env.PORT || 3333)
